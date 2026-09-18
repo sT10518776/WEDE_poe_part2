@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aroma Heaven | Home</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+  <nav class="navbar">
+    <div class="logo">Aroma Heaven</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger">☰</button>
+  </nav>
+</header>
+<main class="container">
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Where Every Sip Feels Like Heaven</h1>
+      <p>Artisan coffee, fresh pastries, and warm vibes in the heart of Polokwane.</p>
+      <a href="menu.html" class="btn">Explore Menu</a>
+      <a href="contact.html" class="btn-outline">Visit Us</a>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=800&q=80" alt="Aroma Heaven Coffee" loading="lazy">
+    </div>
+  </section>
+  <section class="features">
+    <div class="card"><h2>Freshly Roasted</h2><p>100% Arabica beans roasted daily.</p></div>
+    <div class="card"><h2>Cozy Space</h2><p>Free WiFi, work-friendly, pet-friendly patio.</p></div>
+    <div class="card"><h2>Community</h2><p>Local artists, live acoustic Fridays.</p></div>
+  </section>
+</main>
+<footer class="footer"><p>&copy; 2026 Aroma Heaven Coffee Shop | Polokwane, Limpopo</p></footer>
+<script>document.querySelector('.hamburger').onclick=()=>document.querySelector('.nav-links').classList.toggle('active')</script>
+</body>
+</html>
